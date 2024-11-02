@@ -3,6 +3,7 @@ Locators.py
 This is a Python file for Web Locators
 """
 class TestLocators:
+    # Login locators
     username_name = "username"
     password_name = "password"
     login_button = "//button[@type='submit']"
@@ -10,6 +11,7 @@ class TestLocators:
     reset_password_btn = "//button[@type='submit']"
     reset_message = "//*[@id='app']/div[1]/div[1]/div/h6"
 
+    # Admin headers locators
     admin_text = "Admin"
     title = "OrangeHRM"
     user_management = "//*[@id='app']/div[1]/div[1]/header/div[2]/nav/ul/li[1]"
@@ -20,6 +22,7 @@ class TestLocators:
     corporate_branding = "//*[@id='app']/div[1]/div[1]/header/div[2]/nav/ul/li[6]"
     configuration = "//*[@id='app']/div[1]/div[1]/header/div[2]/nav/ul/li[7]"
 
+    # Side pane locators
     admin = "//*[@id='app']/div[1]/div[1]/aside/nav/div[2]/ul/li[1]"
     pim = "//*[@id='app']/div[1]/div[1]/aside/nav/div[2]/ul/li[2]"
     leave = "//*[@id='app']/div[1]/div[1]/aside/nav/div[2]/ul/li[3]"
