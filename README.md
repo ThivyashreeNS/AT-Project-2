@@ -95,7 +95,6 @@ AT_Project_2
 - **test_TC_PIM_03**: Validates functionality of all side menu items.
 
 ## Running the Tests:
-## Running the Tests:
 - __To run all test cases:__
   - To execute all test cases in the project, navigate to the project directory and use the following command:	`pytest`
   -This command will automatically discover and run all test files that match the pattern **test_*.py**
